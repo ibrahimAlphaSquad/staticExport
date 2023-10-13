@@ -1,0 +1,15 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgSun = function SvgSun(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 10,
+    height: 10,
+    viewBox: "0 0 12 12",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "m1.39 9.858.77.772.982-.98-.775-.779-.976.987ZM5.456 12h1.09v-1.616h-1.09V12ZM6 2.712c-.868 0-1.7.347-2.314.963a3.295 3.295 0 0 0 0 4.65 3.265 3.265 0 0 0 4.628 0A3.295 3.295 0 0 0 9.273 6 3.28 3.28 0 0 0 6 2.712Zm4.364 3.836H12V5.452h-1.636v1.096ZM8.858 9.649l.982.981.77-.772-.977-.987-.775.778Zm1.751-7.507L9.84 1.37l-.982.98.775.779.976-.987ZM6.545 0h-1.09v1.616h1.09V0ZM1.636 5.452H0v1.096h1.636V5.452Zm1.506-3.101L2.16 1.37l-.77.772.977.987.775-.778Z",
+    fill: "#F59E0B"
+  })));
+};
+export default SvgSun;
